@@ -1,0 +1,82 @@
+/* rs css */
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+.red {
+  border: 1pt solid red;
+}
+
+.green {
+  border: 1pt solid green;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* section 1: banner */
+.banner {
+  height: 500px;
+  background: url(./image/banner.jpg) center center no-repeat;
+  padding: 20px;
+  /*de chong overflow ~ thanh cuon ngang*/
+}
+.banner .about-sign-in {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.banner .about-sign-in .about,
+.banner .about-sign-in .sign-in {
+  margin-top: 20px;
+  padding: 7px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.banner .about-sign-in .sign-in {
+  margin-right: 60px;
+  margin-left: 25px;
+  border-radius: 20px;
+  border: 1pt solid green;
+}
+.banner .logo {
+  background: url(./image/hapoERP.png) center center no-repeat;
+  margin-top: 40px;
+  height: 100px;
+}
+.banner .text {
+  text-align: center;
+  margin-top: 30px;
+}
+.banner .btn-start-now {
+  text-align: center;
+}
+.banner .btn-start-now button {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border: 1pt solid green;
+  border-radius: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.banner .content-center {
+  /* .content-center {} */
+}
+.banner .content-center .left,
+.banner .content-center .right,
+.banner .content-center .center {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.banner .content-center span {
+  display: block;
+  font-size: 20px;
+}
+.banner .content-center img {
+  width: 30px;
+  height: 30px;
+}
