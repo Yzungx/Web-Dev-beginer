@@ -1,7 +1,38 @@
 /* rs css */
 body {
-    padding: 0 !important;
-    margin : 0 !important;
+    padding    : 0 !important;
+    margin     : 0 !important;
+    // overflow: hidden;
+}
+
+// align: doc
+// justify: ngang
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.5rem;
+    font-family  : inherit;
+    font-weight  : 500;
+    line-height  : 1.2;
+    color        : inherit;
+}
+
+.around {
+    height       : 109.5px;
+    width        : 109.5px;
+    box-sizing   : border-box;
+    border       : 2.5px solid #FFFFFF;
+    border-radius: 50%;
 }
 
 /* -------------------------------------------------------------------------------------------- */
@@ -89,6 +120,324 @@ body {
         img {
             width : 30px;
             height: 30px;
+        }
+    }
+}
+
+// section 2: today i learnt
+
+#section-2 {
+    padding: 0px 20px;
+
+    .container {
+        width: 100%;
+
+        .content__sec_2 {
+            display     : flex;
+            padding     : 100px 150px;
+            margin-left : auto;
+            margin-right: auto;
+
+            .content__left {
+                width  : 50%;
+                padding: 0px 15px;
+
+                .content__img {
+                    width: 100%;
+                }
+            }
+
+            .content__right {
+                width  : 50%;
+                padding: 0px 15px;
+
+                .content__icon__text {
+                    // padding-bottom: 10px;
+                    margin: 0px 0px 15px;
+
+                    i {
+                        font-size: 36px;
+                        margin   : 14px 0px 0px;
+                    }
+
+                    h1 {
+                        display    : inline;
+                        margin     : 0px 0px 8px 19px;
+                        font-size  : 48px;
+                        line-height: 63px;
+                    }
+                }
+
+                .content__text {
+                    span {
+                        font-style: italic;
+                        font-size : 14px;
+                        height    : 19px;
+                    }
+
+                    p {
+                        line-height  : 24px;
+                        text-align   : justify;
+                        font-size    : 13px;
+                        margin-top   : 25px;
+                        margin-bottom: 0px;
+                    }
+                }
+
+                .btn-start-now {
+                    text-align: center;
+
+                    button {
+                        text-transform: uppercase;
+                        padding       : 10px 30px;
+
+                        color           : white;
+                        background-color: green;
+                        border          : 1pt solid black;
+
+                        border-radius: 20px;
+                        margin-top   : 25px;
+                        cursor       : pointer;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+// section 3
+#section-3 {
+    padding         : 100px 0px;
+    margin          : 0;
+    // border-bottom: 5pt ridge gray;
+    // box-shadow: 0 10px 10px 0 rgb(0 0 0 / 10%);
+    box-shadow      : 0px 10px 30px 0 black;
+
+    .container {
+        .content__sec_3 {
+            display: flex;
+
+            .content__left_3,
+            .content__right_3 {
+                width: 50%;
+            }
+
+            .content__left_3 {
+                margin-left  : 180px;
+                padding-right: 15px;
+
+                .content__icon_text_3 {
+                    margin: 0px 0px 15px;
+
+                    i {
+                        font-size : 36px;
+                        margin-top: 14px;
+                    }
+
+                    h1 {
+                        margin        : 0px 0px 8px 19px;
+                        font-size     : 48px;
+                        font-weight   : 400;
+                        letter-spacing: -0.05px;
+                        line-height   : 63px;
+                        display       : inline;
+                    }
+                }
+
+                .content__text_3 {
+                    span {
+                        font-style: italic;
+                        font-size : 14px;
+                        height    : 19px;
+                    }
+
+                    p {
+                        line-height  : 24px;
+                        text-align   : justify;
+                        font-size    : 13px;
+                        margin-top   : 25px;
+                        margin-bottom: 0px;
+                    }
+                }
+
+                .btn-start-now {
+                    text-align: center;
+
+                    button {
+                        text-transform: uppercase;
+                        padding       : 10px 30px;
+
+                        color           : white;
+                        background-color: green;
+                        border          : 1pt solid black;
+
+                        border-radius: 20px;
+                        margin-top   : 25px;
+                        cursor       : pointer;
+                    }
+                }
+
+            }
+
+            .content__right_3 {
+                margin-right: 180px;
+                padding-left: 15px;
+
+                .daily-report-img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// section-4
+#section-4 {
+    .container {
+        .content__section-4 {
+
+            background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+
+            .row__section-4 {
+                display        : flex;
+                margin         : 0px 180px;
+                width          : 76%;
+                justify-content: space-between;
+                padding        : 70px 0px;
+
+                .container__feature-4 {
+                    display       : flex;
+                    flex-direction: column;
+                    align-items   : center;
+
+                    .top-4 {
+                        display        : flex;
+                        align-items    : center;
+                        justify-content: center;
+
+
+                        i {
+                            font-size: 36px;
+                        }
+                    }
+
+                    .bot-4 {
+                        height          : 45.5px;
+                        width           : 45.5px;
+                        margin          : -26px 0 0 0px;
+                        background-color: #7CB342;
+                        box-sizing      : border-box;
+                        border          : 2.5px solid #FFFFFF;
+                        border-radius   : 50%;
+                        display         : flex;
+                        align-items     : center;
+                        justify-content : center;
+
+                        span {
+                            height        : 32px;
+                            width         : 14px;
+                            margin-bottom : 0;
+                            font-family   : Roboto;
+                            color         : #FFFFFF;
+                            font-size     : 24px;
+                            font-weight   : 400;
+                            letter-spacing: -0.05px;
+                            line-height   : 32px;
+                        }
+                    }
+
+                    .text-4 {
+                        height        : 42px;
+                        width         : 83px;
+                        text-align    : center;
+                        margin-top    : 13.75px;
+                        font-family   : Roboto;
+                        color         : #FFFFFF;
+                        font-size     : 16px;
+                        font-weight   : 400;
+                        letter-spacing: 1.33px;
+                        line-height   : 21px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// section-5
+#section-5 {
+    margin       : 0;
+    padding      : 0;
+    border-bottom: 5pt ridge gray;
+
+    .section-5__content {
+        display: flex;
+        margin : 0 180px;
+        padding: 100px 0;
+
+        .content-5__left,
+        .content-5__right {
+            width: 50%;
+        }
+
+        .content-5__left {
+            .icon-text {
+                display        : flex;
+                justify-content: flex-start;
+                align-items    : center;
+
+                i {
+                    font-size: 36px;
+                }
+
+                h1 {
+                    margin        : 0 0 8px 19px;
+                    font-size     : 48px;
+                    font-weight   : 400;
+                    letter-spacing: -0.05px;
+                    line-height   : 63px;
+                }
+            }
+
+            .text-5 {
+                span {
+                    font-style: italic;
+                    font-size : 14px;
+                    padding   : 0 15px 0 0;
+                }
+
+                li {
+                    font-size  : 15px;
+                    line-height: 30px;
+                    padding    : 10px 0;
+                }
+            }
+
+            .btn-start-now {
+                text-align: center;
+
+                button {
+                    text-transform: uppercase;
+                    padding       : 10px 30px;
+
+                    color           : white;
+                    background-color: green;
+                    border          : 1pt solid black;
+
+                    border-radius: 20px;
+                    margin-top   : 25px;
+                    cursor       : pointer;
+                }
+            }
+        }
+
+        .content-5__right {
+            img {
+                height: 100%;
+                width : 100%;
+            }
         }
     }
 }
